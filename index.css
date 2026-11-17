@@ -1,0 +1,287 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  margin-top: 150px;
+}
+.logo {
+  margin-left: 20px;
+  color: whitesmoke;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  height: 60px;
+  background: rgb(128, 93, 93);
+}
+header nav {
+  z-index: 1000;
+  max-width: 1200px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+nav ol {
+  margin-top: -100px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 2rem;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: whitesmoke;
+}
+.sec {
+  background-color: gray;
+  height: 70vh;
+
+  justify-content: center;
+}
+
+.hero-para {
+  font-size: 1.5rem;
+  margin-top: 6px;
+  text-align: justify;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: darkgrey;
+}
+
+#hero-sec {
+  width: 100%;
+  text-align: center;
+}
+
+.herosec {
+  background-image: url("/image/hero-img.png");
+  margin: 20px;
+  height: 200px;
+  margin-top: -89.6px;
+}
+
+.head {
+  transition: 0.4s;
+  animation: fade 0.7s ease-out;
+}
+
+@keyframes fade {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.hea {
+  transition: 0.7s;
+  animation: fad 0.8s ease-out;
+}
+
+@keyframes fad {
+  from {
+    transform: translateY(-70px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.btn {
+  margin-top: 50px;
+  gap: 30px;
+  padding: 14px 18px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  color: whitesmoke;
+  border: none;
+  cursor: pointer;
+}
+
+#consultation-btn {
+  background-color: rgb(139, 139, 228);
+}
+#explore-btn {
+  background-color: rgb(206, 195, 195);
+}
+
+#services {
+  margin-top: 180px;
+  margin: 40px;
+}
+
+.grid {
+  margin: 40px;
+  display: grid;
+}
+.works {
+  padding: 40px 40px;
+  background-color: gray;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px gray;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link {
+  color: whitesmoke;
+}
+
+.link:hover {
+  color: blue;
+}
+#consultation-btn:hover {
+  background-color: blue;
+}
+
+#explore-btn:hover {
+  background-color: blue;
+}
+
+.whyus {
+  margin: 40px;
+}
+
+.list {
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.list li {
+  font-size: 1.5rem;
+}
+
+.process {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(2, auto);
+  gap: 3rem;
+}
+
+.started {
+  padding: 20px;
+}
+
+address {
+  margin-left: 40px;
+  padding: 40px;
+  line-height: 1.9;
+  font-size: 1.5rem;
+}
+.address {
+  background: gray;
+}
+
+.form {
+  padding: 40px 80px;
+  background: gray;
+  justify-content: center;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.9rem;
+  margin: -10px;
+  margin-left: 2px;
+  font-weight: 700;
+}
+
+#company,
+#email,
+#full-name {
+  padding: 20px;
+}
+
+textarea {
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+#button {
+  font-size: 2rem;
+  padding: 20px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+#button:hover {
+  background: blue;
+}
+
+.footer {
+  margin-top: -30px;
+  margin-left: 40px;
+}
+
+footer {
+  padding: 40px;
+  background: rgb(128, 93, 93);
+}
+
+.links {
+  display: flex;
+  float: right;
+  gap: 5rem;
+  margin-right: 40px;
+  margin-top: -80px;
+}
+
+.myfooter {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  font-size: 1.5rem;
+  color: whitesmoke;
+}
+
+ol {
+  list-style: none;
+}
+
+.link-pages {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: whitesmoke;
+}
+a:hover {
+  color: blue;
+}
