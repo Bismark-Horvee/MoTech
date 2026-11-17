@@ -77,7 +77,7 @@ a:active {
 }
 
 .herosec {
-  background-image: url("/image/hero-img.png");
+  background-image: url("./image/hero-img.png");
   margin: 20px;
   height: 200px;
   margin-top: -89.6px;
